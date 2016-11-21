@@ -14,6 +14,7 @@ def main():
     
     # Get some content to tweet.
     tweet_content = simple_tweet_source.new_tweet()
-    print tweet_content
+    api.update_status(tweet_content)
+    print 'Tweeted: ' + tweet_content
     
 main()
