@@ -1,3 +1,5 @@
+#!/usr/bin/env python 
+
 from secrets import *
 
 import simple_tweet_source
