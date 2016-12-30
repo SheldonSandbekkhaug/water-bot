@@ -10,6 +10,7 @@ def markov_tweet():
     bot = MarkovBot()
     read_book(bot, 'alice.txt')
     read_book(bot, 'dao.txt')
+    read_book(bot, 'pride.txt')
     read_book(bot, 'oz.txt')
     
     seed_words = ['drink', 'health', 'water', 'river', 'stream']
